@@ -12,15 +12,8 @@ body {
     background-color: #2f2c2b;
     width: 400px;
     height: 100vh;
-    border-radius: 10px;
-    margin: 10px;
-}
-
-.openProjectContainer {
-    background-color: #2f2c2b;
-    border-radius: 10px;
-    width: 60vw;
-    height: 60vh;
+    border-radius: 12px;
+    overflow: hidden;
     margin: 10px;
 }
 
@@ -29,6 +22,7 @@ body {
     display: flex;
     align-items: center;
     background-color: #2f2c2b;
+    margin: 5px;
 }
 
 .userImage {
@@ -36,13 +30,9 @@ body {
     padding: 10px;
 }
 
-.userName {
+.userName, .userTag {
     color: white;
-}
-
-.userTag {
-    font-size: small;
-    padding: 0;
+    line-height: 5px;
 }
 
 .orderView {
@@ -62,6 +52,27 @@ li {
 .projectContainer {
     background-color: #2f2c2b;
 }
+.projectHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;
+}
+
+.projectHeader button {
+    border: none;
+    border-radius: 6px;
+    background-color: #424245;
+    color: white;
+    height: 1.5rem;
+    width: 2rem;
+}
+
+li:hover {
+    background-color: #424245;
+    border-radius: 8px;
+    margin-right: 10%;
+}
 
 hr {
     width: 80%;
@@ -69,4 +80,67 @@ hr {
     color: #d6d8db;
     background-color: #d6d8db;
     border: none;
+}
+
+/* Project Container CSS below */
+
+.openProjectContainer {
+    width: 60vw;
+    height: 60vh;
+    margin: 10%;
+    /* border: 1px solid red; */
+}
+
+.tableTaskView {
+    background-color: #2f2c2b;
+    border-radius: 12px;
+    width: 60vw;
+    height: 60vh;
+    margin-top: 20px;
+}
+
+.openProjectContainer h1 {
+    color: white;
+    margin-left: 10px;
+}
+
+.openProjectContainer button {
+    margin-left: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    color: black;
+    height: 2.5rem;
+    width: 6rem;
+}
+
+/* Table CSS */
+table {
+    width: 50vw;
+    text-align: center;
+}
+
+.tablePosition{
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+tr {
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr 1fr;
+    justify-items: start;
+    color: white;
+}
+
+tr:hover {
+    border: 2px solid #424245;
+    border-radius: 8px;
+}
+
+.tableHeaderRow {
+    background-color: #424245;
+    color: rgb(196, 191, 191);
+    border-radius: 8px;
+    
 }

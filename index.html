@@ -13,8 +13,8 @@
         <div class="userInformation">
             <img class="userImage" src="./assests/letter-k.png" alt="userNameLogo">
             <div class="userHandle">
-                <h2 class="userName">Kevin Myburgh</h2>
-                <h5 class="userTag">@kev_may_</h5>
+                <h3 class="userName">Kevin Myburgh</h3>
+                <p class="userTag">@kev_may_</p>
             </div>
         </div>
         <br>
@@ -29,7 +29,11 @@
         <hr>
         <br>
         <div class="projectContainer">
-            <ul class="projectList"><h2>Projects</h2>
+            <ul class="projectList">
+                <div class="projectHeader">
+                <h2>Projects</h2>
+                <button>+</button>
+                </div>
                 <li id="projectOne">Project One</li>
                 <li id="projectTwo">Project Two</li>
                 <li id="projectThree">Project Three</li>
@@ -42,11 +46,38 @@
    <div class="openProjectContainer">
      <div>
         <h1>Project Name</h1>
-        <br>
         <button>+ Add task</button>
         <br>
         <div class="tableTaskView">
             <!-- rows and columns for tasks in here -->
+            <div class="tablePosition">
+                <table>
+                        <tr class="tableHeaderRow">
+                            <th class="tableHeader">Status</th>
+                            <th class="tableHeader">Title</th>
+                            <th class="tableHeader">Due Date</th>
+                            <th class="tableHeader">Priority</th>
+                        </tr>
+                        <tr>
+                            <td class="tableCell">check</td>
+                            <td class="tableCell">Here is a task</td>
+                            <td class="tableCell">31/01/2024</td>
+                            <td class="tableCell">High</td>
+                        </tr>
+                        <tr>
+                            <td class="tableCell">check</td>
+                            <td class="tableCell">Here is another task</td>
+                            <td class="tableCell">01/02/2024</td>
+                            <td class="tableCell">Med</td>
+                        </tr>
+                        <tr>
+                            <td class="tableCell">check</td>
+                            <td class="tableCell">Wow look a task</td>
+                            <td class="tableCell">02/02/2024</td>
+                            <td class="tableCell">Low</td>
+                        </tr>
+                </table>
+            </div>
         </div>
      </div>
    </div>
