@@ -135,8 +135,8 @@ tr {
     height: 40px;
 }
 
-tr:hover {
-    border: 2px solid #424245;
+.tableDataRow:hover {
+    background-color: #1a1a1c;
     border-radius: 8px;
 }
 
