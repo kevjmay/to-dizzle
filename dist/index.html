@@ -28,16 +28,21 @@
         <hr>
         <br>
         <div class="projectContainer">
-            <ul class="projectList">
-                <div class="projectHeader">
+            <div class="projectHeader">
                 <h2>Projects</h2>
-                <button>+</button>
-                </div>
+                <form action="" data-new-list-form>
+                    <input 
+                    type="text" 
+                    class="new list"
+                    data-new-list-input 
+                    placeholder=" add new project"
+                    aria-label="new list name"/>
+                    <button class="btn create" aria-label="create new list">+</button>
+                </form>
+            </div>
+            <ul class="projectList">
                 <!-- <li id="projectOne">Project One</li>
-                <li id="projectTwo">Project Two</li>
-                <li id="projectThree">Project Three</li>
-                <li id="projectFour">Project Four</li>
-                <li id="projectFive">Project Five</li> -->
+                <li id="projectTwo">Project Two</li> -->
             </ul>
         </div>
    </div>

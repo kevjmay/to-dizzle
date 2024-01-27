@@ -59,6 +59,16 @@ li {
     margin-right: 10%;
 }
 
+input {
+    border: none;
+    border-radius: 6px;
+}
+
+.projectHeader h2 {
+    color: white;
+    padding-left: 25px;
+}
+
 .projectHeader button {
     border: none;
     border-radius: 6px;
