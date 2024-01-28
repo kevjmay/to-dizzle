@@ -49,6 +49,10 @@ li {
     padding-left: 10px;
 }
 
+.active-list {
+    font-weight: bolder;
+}
+
 .projectContainer {
     background-color: #2f2c2b;
 }
@@ -124,9 +128,20 @@ hr {
     width: 6rem;
 }
 
+.delete-list {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.delete-list button {
+    background-color: #d6d8db;
+    color: #1a1a1c;
+    height: 1.2rem;
+}
+
 /* Table CSS */
 table {
-    width: 50vw;
+    width: 55vw;
     text-align: center;
 }
 
